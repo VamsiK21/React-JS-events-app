@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.events-container {
+  width: 60%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #475569, #3a4b63);
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.event-list-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 0px;
+  padding-left: 0px;
+}

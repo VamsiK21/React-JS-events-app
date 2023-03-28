@@ -1,0 +1,97 @@
+/* Write your CSS here */
+
+.registration-status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.yet-to-register-img {
+  max-width: 461px;
+  width: 90%;
+}
+
+.yet-to-register-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #64748b;
+  margin: 0px;
+  margin-top: 48px;
+  line-height: 1.5;
+}
+
+.button-register {
+  background-color: #0967d2;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 12px;
+  align-self: stretch;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.registered-img {
+  height: 100px;
+  width: 100px;
+}
+
+.success-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #323f4b;
+}
+
+.closed-img {
+  width: 80%;
+  max-width: 390px;
+}
+
+.closed-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #323f4b;
+  margin: 0px;
+  margin-top: 32px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.alert-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #475569;
+  margin: 0px;
+  margin-top: 16px;
+  text-align: center;
+  width: 60%;
+}
+
+.status-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #475569;
+  text-align: center;
+  align-self: flex-start;
+}
